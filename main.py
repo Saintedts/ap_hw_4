@@ -6,7 +6,7 @@ import redis
 
 
 app = FastAPI()
-redisio = redis.Redis(host='app-redis-1', port=6379)
+redisio = redis.Redis(host='redis', port=6379)
 
 
 def query_coins():
